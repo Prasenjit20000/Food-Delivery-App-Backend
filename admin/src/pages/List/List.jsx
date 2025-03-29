@@ -33,7 +33,7 @@ const List = () => {
 
   useEffect(() => {
     fetchList();
-  }, [])
+  },[])
 
   return (
     <div className='list add flex-col'>
